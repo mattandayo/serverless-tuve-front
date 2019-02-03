@@ -1,0 +1,27 @@
+{
+  "name": "serverless-tuve-front",
+  "version": "1.0.0",
+  "description": "",
+  "local-web-server": {
+    "port": 8000,
+    "forbit": "*.json"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "ws",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattandayo/serverless-tuve-front.git"
+  },
+  "author": "mattandayo",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mattandayo/serverless-tuve-front/issues"
+  },
+  "homepage": "https://github.com/mattandayo/serverless-tuve-front#readme",
+  "devDependencies": {
+    "local-web-server": "^2.6.1"
+  }
+}
